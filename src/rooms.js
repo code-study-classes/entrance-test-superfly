@@ -1,3 +1,5 @@
+import fs from 'fs';
+
 export default function rooms() {
     const allRooms = {
       rooms1: {},
@@ -37,3 +39,18 @@ export default function rooms() {
   
     return allRooms
   }
+
+  const placement = rooms();
+
+  function writeFile(placement) {
+    const json = JSON.stringify(placement, null);
+    fs.writeFile('/mnt/c/Users/arg/Desktop/git/entrance-test-superfly/src/db.json', json, (err) => {
+      if (err) {
+        console.log(err);
+      } else {
+        console.log('ok');
+      }
+    });
+  }
+
+  writeFile(placement)

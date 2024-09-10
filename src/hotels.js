@@ -1,8 +1,8 @@
+import fs from 'fs';
 import regions from "./regions.js"
-import rooms from "./rooms.js"
+import placement from './rooms.js'
 
 const reg = regions()
-const placement = rooms()
 
 export default function hotel() {
   const hotels = {
@@ -28,5 +28,6 @@ export default function hotel() {
 
   return hotels
 }
+
 
 console.log(hotel())

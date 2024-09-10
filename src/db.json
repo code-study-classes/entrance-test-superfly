@@ -1,0 +1,162 @@
+{
+  "rooms1": {
+    "room1": {
+      "number": "1",
+      "category": "Standard",
+      "capacity": 2,
+      "status": "busy"
+    },
+    "room2": {
+      "number": "2",
+      "category": "Apartments",
+      "capacity": 3,
+      "status": "busy"
+    },
+    "room3": {
+      "number": "3",
+      "category": "Standard",
+      "capacity": 2,
+      "status": "busy"
+    },
+    "room4": {
+      "number": "4",
+      "category": "Apartments",
+      "capacity": 1,
+      "status": "busy"
+    },
+    "room5": {
+      "number": "5",
+      "category": "Apartments",
+      "capacity": 2,
+      "status": "empty"
+    }
+  },
+  "rooms2": {
+    "room1": {
+      "number": "1",
+      "category": "Standard",
+      "capacity": 1,
+      "status": "empty"
+    },
+    "room2": {
+      "number": "2",
+      "category": "Standard",
+      "capacity": 2,
+      "status": "empty"
+    },
+    "room3": {
+      "number": "3",
+      "category": "Apartments",
+      "capacity": 2,
+      "status": "busy"
+    },
+    "room4": {
+      "number": "4",
+      "category": "Lux",
+      "capacity": 1,
+      "status": "busy"
+    },
+    "room5": {
+      "number": "5",
+      "category": "Standard",
+      "capacity": 1,
+      "status": "busy"
+    }
+  },
+  "rooms3": {
+    "room1": {
+      "number": "1",
+      "category": "Lux",
+      "capacity": 1,
+      "status": "busy"
+    },
+    "room2": {
+      "number": "2",
+      "category": "Apartments",
+      "capacity": 4,
+      "status": "empty"
+    },
+    "room3": {
+      "number": "3",
+      "category": "Standard",
+      "capacity": 2,
+      "status": "busy"
+    },
+    "room4": {
+      "number": "4",
+      "category": "Standard",
+      "capacity": 2,
+      "status": "empty"
+    },
+    "room5": {
+      "number": "5",
+      "category": "Standard",
+      "capacity": 1,
+      "status": "empty"
+    }
+  },
+  "rooms4": {
+    "room1": {
+      "number": "1",
+      "category": "Lux",
+      "capacity": 1,
+      "status": "empty"
+    },
+    "room2": {
+      "number": "2",
+      "category": "Lux",
+      "capacity": 2,
+      "status": "busy"
+    },
+    "room3": {
+      "number": "3",
+      "category": "Standard",
+      "capacity": 2,
+      "status": "busy"
+    },
+    "room4": {
+      "number": "4",
+      "category": "Apartments",
+      "capacity": 3,
+      "status": "busy"
+    },
+    "room5": {
+      "number": "5",
+      "category": "Apartments",
+      "capacity": 1,
+      "status": "busy"
+    }
+  },
+  "rooms5": {
+    "room1": {
+      "number": "1",
+      "category": "Standard",
+      "capacity": 1,
+      "status": "empty"
+    },
+    "room2": {
+      "number": "2",
+      "category": "Apartments",
+      "capacity": 3,
+      "status": "busy"
+    },
+    "room3": {
+      "number": "3",
+      "category": "Apartments",
+      "capacity": 4,
+      "status": "empty"
+    },
+    "room4": {
+      "number": "4",
+      "category": "Apartments",
+      "capacity": 1,
+      "status": "busy"
+    },
+    "room5": {
+      "number": "5",
+      "category": "Apartments",
+      "capacity": 4,
+      "status": "empty"
+    }
+  }
+}
