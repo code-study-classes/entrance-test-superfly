@@ -1,26 +1,11 @@
-// const regions = (regionsPath) => {
-//   return regionsPath
-// }
-// export default regions
+export default function regions() {
+  const region = {
+   stock : 'Stockholm',
+   abk : 'Abakan',
+   spb : 'IaintPeterburg',
+   mos : 'Moscow',
+   iv : 'Ivangelsk',
+  } 
 
-export default class Country {
-  constructor () {
-    this.country = [];
-  }
-
-  getCountry () {
-    return this.country
-  }
-
-  setCountry (addCountry) {
-    const items = this.getCountry()
-    items.push(addCountry)
-  }
+  return region
 }
-
-const myCountry = new Country();
-myCountry.setCountry({ region: 'Moscow'});
-myCountry.setCountry({ region : "Saint-Peterburg"});
-myCountry.setCountry({ region : "Stockholm"});
-myCountry.setCountry({ region : "Abakan"});
-console.log(myCountry.getCountry());

@@ -13,8 +13,24 @@ import fs from 'fs';
 // }
 
 export default class Generate {
-    constructor(name, region) {
-      this.name = name;
-      this.region = region
+    constructor() {
+      this.name = [];
     }
+
+    getHotels () {
+      return this.name
+    }
+
+    setHotel(name) {
+      const items = this.getHotels()
+      items.push(name)
+    } 
 }
+
+const myGenerate = new Generate();
+myGenerate.setHotel({ name: 'hotel1', country: 'Moscow' });
+myGenerate.setHotel({ name: 'hotel2', country: 'Saint-Peterburg' });
+myGenerate.setHotel({ name: 'hotel3', country: 'Stockholm' });
+myGenerate.setHotel({ name: 'hotel4', country: 'Abakan' });
+
+console.log(myGenerate.getHotels());
