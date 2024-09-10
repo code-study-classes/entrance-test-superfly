@@ -1,14 +1,16 @@
 import regions from "./regions.js"
+import rooms from "./rooms.js"
 
 const reg = regions()
+const placement = rooms()
 
 export default function hotel() {
   const hotels = {
     Eleon: [],
-    hotel2: [],
-    hotel3: [],
-    hotel4: [],
-    hotel5: [],
+    Obelick: [],
+    Azimut: [],
+    Ridge: [],
+    Helen: [],
   }
 
   const regionNames = Object.keys(reg)
@@ -16,6 +18,11 @@ export default function hotel() {
   let index = 0
   for (let hotel in hotels) {
     hotels[hotel].push(reg[regionNames[index]])
+    index++
+  }
+
+  for (let hotel in hotels) {
+    hotels[hotel].push(placement)
     index++
   }
 
